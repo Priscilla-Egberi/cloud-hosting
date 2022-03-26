@@ -2,7 +2,22 @@ body{
     box-sizing: border-box;
     font-family: 'lato', sans-serif;
     font-size:16px;
+    line-height: 1.6;    
 }
+
+img{
+    width:100%;
+}
+
+p{
+    color:gray;
+}
+
+.card{
+    box-shadow: 5px 5px 10px -5px gray;
+    padding:1em;
+}
+
 .container{
     max-width:1000px;
     padding:0 !important;
@@ -36,8 +51,10 @@ body{
 .showcase .btn:hover{
    transform: scale(0.98);
 }
-.card{
+.showcase .card{
     z-index: 1;
+    box-shadow: 0 5px 10px gray;
+
 }
 .showcase::before,
 .showcase::after{
@@ -49,4 +66,14 @@ body{
     right:0;    
     background-color: #fff;
     transform: skewY(-3deg);
+}
+
+.icon-section{
+    margin-top: 100px;
+
+}
+
+.container-for-icons{
+   margin-left: 15rem !important;
+   margin-right: 15rem !important;
 }
